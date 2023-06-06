@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #light {
@@ -56,7 +56,7 @@
 
 .input {
   margin-top: 30px;
-  width: 200px;
+  width: 250px;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #b6b6b6;
@@ -68,6 +68,7 @@
   padding: 10px 15px;
   border-radius: 20px;
   font-weight: bold;
+  font-size: 14px;
   cursor: pointer;
   transition: .3s;
   text-transform: uppercase;
@@ -102,5 +103,9 @@
 
   #light .container h1, #dark .container h1 {
     bottom: 60px;
+  }
+
+  .container h1 {
+    font-size: 22px;
   }
 }
